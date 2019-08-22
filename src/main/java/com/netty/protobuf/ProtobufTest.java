@@ -3,6 +3,7 @@ package com.netty.protobuf;
 import com.google.protobuf.InvalidProtocolBufferException;
 
 public class ProtobufTest {
+
     public static void main(String[] args) throws InvalidProtocolBufferException {
         DataInfo.Student student = DataInfo.Student.newBuilder()
                 .setName("张三")
